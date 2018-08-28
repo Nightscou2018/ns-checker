@@ -1,0 +1,30 @@
+{
+  "name": "ns-checker",
+  "version": "1.0.0",
+  "description": "Checks current SGV from nightscout and triggers appropriate external URL (in my case Control4)",
+  "main": "ns-checker.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briandlucas/ns-checker.git"
+  },
+  "keywords": [
+    "Nightscout",
+    "SGV"
+  ],
+  "author": "brian lucas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandlucas/ns-checker/issues"
+  },
+  "homepage": "https://github.com/briandlucas/ns-checker#readme",
+  "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "dotenv": "^6.0.0",
+    "multer": "latest",
+    "sync-request": "latest"
+  }
+}
