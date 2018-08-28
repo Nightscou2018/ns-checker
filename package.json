@@ -23,7 +23,7 @@
   "dependencies": {
     "body-parser": "latest",
     "cookie-parser": "latest",
-    "dotenv": "^6.0.0",
+    "dotenv": "latests",
     "multer": "latest",
     "sync-request": "latest"
   }
